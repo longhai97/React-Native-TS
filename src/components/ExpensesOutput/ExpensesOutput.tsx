@@ -45,7 +45,31 @@ const DUMMY_EXPENSES: IDummyData[] = [
     id: "e5",
     description: "A Macbook",
     amount: 289.88,
-    date: new Date("2023-6-20"),
+    date: new Date("2023-06-20"),
+  },
+  {
+    id: "e6",
+    description: "A pair of trousers",
+    amount: 69.99,
+    date: new Date("2022-01-19"),
+  },
+  {
+    id: "e7",
+    description: "Some Bananas",
+    amount: 4.99,
+    date: new Date("2021-06-05"),
+  },
+  {
+    id: "e8",
+    description: "A Book",
+    amount: 10.49,
+    date: new Date("2022-02-19"),
+  },
+  {
+    id: "e9",
+    description: "A Macbook",
+    amount: 289.88,
+    date: new Date("2023-06-20"),
   },
 ];
 
@@ -61,7 +85,8 @@ export default function ExpensesOutput({ expenses, expensesPeriod }: Props) {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    padding: 24,
+    paddingHorizontal: 24,
+    paddingTop: 20,
     backgroundColor: GlobalStyles.colors.primary700,
   },
 });
